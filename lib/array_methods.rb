@@ -8,6 +8,7 @@ nil
 end
 
 def find_max_value(array)
+  array.length.times do |count|
   array.sort
   array.last
 end
